@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="76.226">
+    <testcase classname="A description" name="End to end scenario with 2 products" time="29.941">
+        <system-out>
+            <![CDATA[Given The user is navigated to https://www.demoblaze.com/index.html.........passed
+And The Home Page is displayed..............................................passed
+And Select category laptop..................................................passed
+And Click on product "Sony vaio i5".........................................passed
+And PDP is displayed........................................................passed
+And Click on add to cart link...............................................passed
+And Accept alert............................................................passed
+When The user go back to Home Page..........................................passed
+Then The Home Page is displayed.............................................passed
+When Select category laptop.................................................passed
+And Click on product "Dell i7 8gb"..........................................passed
+And PDP is displayed........................................................passed
+And Click on add to cart link...............................................passed
+And Accept alert............................................................passed
+When The user navigate to Cart Page.........................................passed
+Then Cart Page is displayed.................................................passed
+When The user delete product "Sony vaio i5" from cart.......................passed
+When The user click on Place Order button...................................passed
+And Place Order modal is displayed..........................................passed
+And The user apply martyparty, Bulgaria, Sofia, 123, May and 1991 in order form.passed
+When The user click on purchase button......................................passed
+Then Order Confirmation message is displayed................................passed
+When Take screenshot! Ka-chick!.............................................passed
+When The user click on Order Confirm OK button..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="A description" name="Add Product from PLP page one and product from PLP page two" time="30.917">
+        <system-out>
+            <![CDATA[Given The user is navigated to https://www.demoblaze.com/index.html.........passed
+And The Home Page is displayed..............................................passed
+And Select category laptop..................................................passed
+And Click on product "ASUS Full HD".........................................passed
+And PDP is displayed........................................................passed
+And Click on add to cart link...............................................passed
+And Accept alert............................................................passed
+When The user go back to Home Page..........................................passed
+Then The Home Page is displayed.............................................passed
+When Select category laptop.................................................passed
+And Click on product "Dell i7 8gb"..........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="A description" name="Add Product from PLP page one and product from PLP page two 2" time="15.163">
+        <system-out>
+            <![CDATA[Given The user is navigated to https://www.demoblaze.com/index.html.........passed
+And The Home Page is displayed..............................................passed
+And Select category laptop..................................................passed
+And Click on product "Dell i7 8gb"..........................................passed
+And PDP is displayed........................................................passed
+And Click on add to cart link...............................................passed
+And Accept alert............................................................passed
+And Click on add to cart link...............................................passed
+And Accept alert............................................................passed
+And Click on add to cart link...............................................passed
+And Accept alert............................................................passed
+And Click on add to cart link...............................................passed
+And Accept alert............................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
